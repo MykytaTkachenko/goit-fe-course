@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1200px;
+    margin: 28px auto 128px auto;
+}
+
+.logo {
+
+}
+
+.logo_link {
+    color: #9ce3d6;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.nav {
+    width: 490px;
+}
+
+.main_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    
+}
+
+.item_link {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #9ce3d6;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.item_link:hover {
+    color: #f38181;
+    padding-bottom: 12px;
+    border-bottom: 3px solid  #f38181;
+}

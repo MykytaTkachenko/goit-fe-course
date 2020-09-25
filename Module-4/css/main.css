@@ -1,0 +1,133 @@
+.main {
+
+}
+
+.section_1 {
+    
+}
+
+.title_div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto 66px auto;
+}
+
+.main_div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px auto 0px 390px;
+    width: 390px;
+    height: 390px;
+}
+
+.div_1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main_text {
+    display: inline-block;
+    margin: auto 72px auto 28px;
+}
+
+.main_title::after {
+    display: block;
+    content: '';
+    background-color: #f38181;
+    height: 3px;
+    width: 60px;
+    margin: 42px auto 0 auto;
+}
+
+.main_title_2::after {
+    display: block;
+    content: '';
+    background-color: #f38181;
+    height: 3px;
+    width: 60px;
+    margin: 42px auto 0 auto;
+}
+
+.sub_title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.main_title_2 {
+    margin-bottom: 46px;
+}
+
+.main_title, .main_title_2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+
+}
+
+.title_sect {
+    font-size: 14px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    margin-bottom: 101px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.title_div_2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 90px 490px;
+    width: 941px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0px auto 0px 360px;
+    width: 1240px;
+    height: 544px;
+}
+
+.text_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.img {
+    margin-bottom: 30px;
+}
+
+.person {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.job {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
