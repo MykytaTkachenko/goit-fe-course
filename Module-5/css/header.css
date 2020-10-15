@@ -1,0 +1,69 @@
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #ffffff;
+    width: 1900px;
+    height: 50px;
+    z-index: 2;
+}
+
+.logo {
+    
+}
+
+.logo_link {
+    color: #9ce3d6;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.nav {
+    width: 490px;
+}
+
+.main_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    position: relative;
+}
+
+.item_link {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #9ce3d6;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sublist {
+    position: absolute;
+    display: none; 
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.list:hover > .sublist { 
+    display: block; 
+    background-color: #9ce3d6;
+}
+.sublist-item > a:hover {
+    background: #f38181;
+    color: #ffffff;
+}
+
+.item_link:hover {
+    color: #f38181;
+    padding-bottom: 12px;
+    border-bottom: 3px solid  #f38181;
+}

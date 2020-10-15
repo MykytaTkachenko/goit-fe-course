@@ -1,0 +1,144 @@
+.main {
+
+}
+
+.section_2 {
+
+}
+
+.title_div_2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 90px auto;
+    width: 941px;
+    text-align: center;
+}
+
+.sub_title_2 {
+    margin: 92px auto 0px auto;
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.main_title_2 {
+    margin-bottom: 46px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_title_2::after {
+    display: block;
+    content: '';
+    background-color: #f38181;
+    height: 3px;
+    width: 60px;
+    margin: 42px auto 0 auto;
+}
+
+.text_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    width: 1240px;
+    height: 544px;
+}
+
+.card {
+    width: 383px;
+}
+
+.card_wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.card_wrapper:hover > .card_gradient {
+    transform: translate(-10px, -10px);
+    transition: 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+
+.img {
+
+}
+
+.card_wrapper:hover > .img {
+    transform: translate(-10px, -10px);
+    transition: 200ms linear;
+}
+
+.card_gradient {
+    width: 383px;
+    height: 473px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.social {
+    display: none;
+    font-size: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 227px;
+}
+
+.card_wrapper:hover .social {
+    display: inline-block;
+}
+
+.social_link {
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    display: inline-block;
+    position: relative;
+    margin-right: 1px;
+}
+
+.social_link:last-child {
+    margin-right: 0px;
+}
+
+.social_link:hover {
+    background-color: #95e1d3;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.person {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.job {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0px auto 145px auto;
+}
