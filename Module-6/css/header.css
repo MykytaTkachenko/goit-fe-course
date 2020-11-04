@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 933px;
+    height: 65px;
+    margin: 0px auto 0px auto;
+}
+
+.logo {
+    
+}
+
+.logo_link {
+    color: #fed136;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: 700;
+}
+
+.navigation {
+    width: 490px;
+}
+
+.main_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_link {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.item_link:hover {
+    color: #fed136;
+}

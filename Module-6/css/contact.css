@@ -1,0 +1,116 @@
+.contact {
+    width: auto;
+    height: 694px;
+    background-color: #222222;
+    position: relative;
+}
+
+.contact_main_title {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 110px auto 11px auto;
+}
+
+.contact_sub_title {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #777777; 
+}
+
+.contact_form {
+    width: 940px;
+    height: 307px;
+    margin: 0px auto 0px auto;
+}
+
+.contact_form_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 940px;
+    height: 210px;
+    margin: 0px auto 30px auto;
+}
+
+.form_name {
+    width: 455px;
+    height: 50px;
+    margin: 0px 30px 30px 0px;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+.form_email {
+    width: 455px;
+    height: 50px;
+    margin: 0px 30px 30px 0px;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+.form_subject {
+    width: 455px;
+    height: 50px;
+    margin: 0px 30px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+.form_name::placeholder, .form_email::placeholder, .form_subject::placeholder, .form_message::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #bbbbbb;
+}
+
+.form_message {
+    width: 455px;
+    height: 210px;
+    margin: 0px auto 0px auto;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+.contact_form_submit {
+    display: flex;
+    justify-content: center;
+}
+
+.form_submit {
+    width: 240px;
+    height: 66px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fed136;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.form_name:focus, .form_email:focus, .form_subject:focus, .form_message:focus {
+    outline: none;
+    border: none;
+}
+
+.contact_img_world_map {
+    position: absolute;
+    z-index: 1;
+    /* bottom: 3px; */
+    top: 137px; 
+    transform: translate(170%);
+}
