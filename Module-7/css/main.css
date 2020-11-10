@@ -138,3 +138,23 @@
         padding: 13px 30px 13px 30px;
     }
 }
+
+/* !!! LAPTOP/COMPUTER !!! */
+
+@media (min-width: 1024px) {
+
+    .people_list__box {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 914px;
+    }
+    
+    .people_list_box_content {
+        margin-bottom: 0px;
+    }
+
+    .people_list__box_search_people {
+        margin-bottom: 70px;
+    }
+}

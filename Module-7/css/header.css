@@ -114,14 +114,63 @@
         height: 700px;
     }
     
-    .header_wrapper {
-    
-    }
-    
     .header__menu {
         justify-content: space-between;
         height: auto;
         width: 669px;
+        margin: 0px auto 152px auto;
+        padding-top: 38px;
+    }
+
+    .header__button_wrapper {
+        font-size: 0px;
+    }
+    
+    .header__welcome {
+        width: 503px;
+        height: auto;
+    }
+    
+    .header__log_in {
+        margin-top: 0px;
+    }
+    
+    .header__sign_up {
+        margin-top: 0px;
+    }
+    
+    .header__logo {
+        order: -1;
+    }
+    
+    .header__title {
+        margin: 0px 0px 30px 0px;
+        font-size: 52px;
+    }
+    
+    .header__title_support_text {
+        margin: 0px 0px 34px 0px;
+        font-size: 24px;
+        width: auto;
+    }
+    
+    .header__find_partner {
+        padding: 13px 24px 13px 24px;
+    }
+}
+
+/* !!! LAPTOP/COMPUTER !!! */
+
+@media (min-width: 1024px) {
+
+    .header {
+        height: 700px;
+    }
+
+    .header__menu {
+        justify-content: space-between;
+        height: auto;
+        width: 939px;
         margin: 0px auto 152px auto;
         padding-top: 38px;
     }
