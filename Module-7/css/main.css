@@ -18,11 +18,7 @@
 
 .people_list__box {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-content: center;
-    /* width: 217px; */
-    /* height: 1000px; */
+    flex-direction: column;
     margin: 0px auto 0px auto;
 }
 
@@ -32,11 +28,12 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    align-content: flex-start;
     margin: 0px auto 27px auto;
 }
 
 .people_list_box_content:nth-child(4) {
-    margin: 0px auto 0px auto;
+    margin-bottom: 0px;
 }
 
 .people_list_box_content_img {
@@ -74,10 +71,6 @@
 
 }
 
-/* .people_list_box_content_img::after {
-    content: url('../img/tv.png');
-} */
-
 .people_list_box_content_name {
     margin: 0px 0px 18px 0px;
     font-family: 'Montserrat', sans-serif;
@@ -104,4 +97,44 @@
     border-radius: 40px;
     padding: 13px 51px 13px 51px;
     outline: none;
+}
+
+/* !!! TABLET !!! */
+
+@media (min-width: 768px) {
+    
+    .people_list__title {
+        text-align: center;
+        margin: 72px auto 30px auto;
+        width: auto;
+    }
+
+    .people_list__box {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 470px;
+    }
+    
+    .people_list_box_content {
+        margin: 0px 0px 57px 0px;
+    }
+
+    .people_list_box_content:nth-child(3) {
+        order: -1;
+    }
+
+    .people_list_box_content:nth-child(1) {
+        order: -2;
+    }
+
+    .people_list_box_content:nth-child(even) {
+        margin-bottom: 0px;
+    }
+
+    .people_list__box_search_people {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 13px 30px 13px 30px;
+    }
 }
