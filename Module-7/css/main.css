@@ -1,0 +1,107 @@
+.main {
+
+}
+
+.people_list {
+
+}
+
+.people_list__title {
+    text-align: center;
+    margin: 68px auto 14px auto;
+    width: 268px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.people_list__box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    /* width: 217px; */
+    /* height: 1000px; */
+    margin: 0px auto 0px auto;
+}
+
+.people_list_box_content {
+    width: 217px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto 27px auto;
+}
+
+.people_list_box_content:nth-child(4) {
+    margin: 0px auto 0px auto;
+}
+
+.people_list_box_content_img {
+    margin: 0px 0px 20px 0px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.people_list_box_content_icon_wrapper {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 4px solid white;
+    position: absolute;
+    transform: translate(125%, 250%);
+}
+
+.background_color-2 {
+    background-color: #ffa507;
+}
+
+.background_color-3 {
+    background-color :#1cd7ad;
+}
+
+.background_color-4 {
+    background-color: #4e73db;
+}
+
+.people_list_box_content_icon {
+
+}
+
+/* .people_list_box_content_img::after {
+    content: url('../img/tv.png');
+} */
+
+.people_list_box_content_name {
+    margin: 0px 0px 18px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+}
+
+.people_list_box_content_biography {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+}
+
+.people_list__box_search_people {
+    margin: 27px auto 54px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ff4e50;
+    background: none;
+    border: 2px solid #ff4e50;
+    border-radius: 40px;
+    padding: 13px 51px 13px 51px;
+    outline: none;
+}
